@@ -1,0 +1,3 @@
+C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
+C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir
