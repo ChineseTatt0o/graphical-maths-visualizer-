@@ -86,7 +86,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.raylib-build.raylib-Debug-34390627157439f5e72c.json",
+					"jsonFile" : "directory-_deps.raylib-build.raylib-Debug-7425a21c01559bc36eeb.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -203,7 +203,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MathVisualizer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MathVisualizer-Debug-5cc141340c7c04025a44.json",
+					"jsonFile" : "target-MathVisualizer-Debug-f83e17be3dbdf55dc7a4.json",
 					"name" : "MathVisualizer",
 					"projectIndex" : 0
 				},
@@ -217,7 +217,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "raylib::@4dc3a4644cf4ded08c01",
-					"jsonFile" : "target-raylib-Debug-2b899564a0ede32b3640.json",
+					"jsonFile" : "target-raylib-Debug-0c34305bf2b7584b5724.json",
 					"name" : "raylib",
 					"projectIndex" : 1
 				},
