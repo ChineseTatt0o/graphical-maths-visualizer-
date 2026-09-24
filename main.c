@@ -28,18 +28,18 @@ Color colors[] = {
 
 int numbers[COUNT];
 
-enum Fold
+enum Fold  //to switch between the four directions of the spiral
 {
     UP,
     DOWN,
     LEFT,
     RIGHT
 };
-Vector2 pos;
-bool fixed = false;
-int current_x, current_y;
+Vector2 pos; // Variable to store the position of the mouse
+bool fixed = false; // Variable to determine if the position is fixed or follows the mouse
+int current_x, current_y; // Variables to store the current position for drawing
 
-void init_fibonacci()
+void init_fibonacci() //the sequence is generated in this function
 {
     numbers[0] = 1;
     numbers[1] = 1;
