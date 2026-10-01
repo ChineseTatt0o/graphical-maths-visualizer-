@@ -7,6 +7,30 @@
 },
 {
   "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
+  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\fibonacci.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\fibonacci.c",
+  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/fibonacci.c",
+  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/fibonacci.c.obj"
+},
+{
+  "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
+  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\graph.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\graph.c",
+  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/graph.c",
+  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/graph.c.obj"
+},
+{
+  "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
+  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\function.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\function.c",
+  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/function.c",
+  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/function.c.obj"
+},
+{
+  "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
+  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\tinyexpr.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\tinyexpr.c",
+  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/tinyexpr.c",
+  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/tinyexpr.c.obj"
+},
+{
+  "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
   "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -isystem C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o _deps\\raylib-build\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\build\\_deps\\raylib-src\\src\\rcore.c",
   "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src/rcore.c",
   "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
