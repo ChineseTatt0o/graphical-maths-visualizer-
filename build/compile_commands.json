@@ -25,9 +25,15 @@
 },
 {
   "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
-  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\tinyexpr.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\tinyexpr.c",
-  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/tinyexpr.c",
-  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/tinyexpr.c.obj"
+  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\polar.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\polar.c",
+  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/polar.c",
+  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/polar.c.obj"
+},
+{
+  "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
+  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\rose.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\rose.c",
+  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/rose.c",
+  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/rose.c.obj"
 },
 {
   "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",

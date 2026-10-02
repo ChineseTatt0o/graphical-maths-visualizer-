@@ -12,11 +12,11 @@ set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 FetchContent_Declare(
     raylib
     GIT_REPOSITORY https://github.com/raysan5/raylib.git
-    GIT_TAG master
+    GIT_TAG master 
 )
 
 FetchContent_MakeAvailable(raylib)
 
-add_executable(MathVisualizer main.c fibonacci.c graph.c function.c tinyexpr.c)
+add_executable(MathVisualizer main.c fibonacci.c graph.c function.c polar.c rose.c)
 
 target_link_libraries(MathVisualizer PRIVATE raylib)
