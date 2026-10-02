@@ -8,6 +8,7 @@
 #include "function.h"
 #include "polar.h"
 #include "rose.h"
+#include "parametric.h"
 
 #define WIDTH 900
 #define HEIGHT 600
@@ -106,12 +107,15 @@ int main(void)
         // draw_function(1.0, 0.0);
 
         //!rose
-        draw_rose(0 , 0);
-        DrawText("hold M: increase 'a' , L: decrease 'a'", HEIGHT - 75, 50, 20, WHITE);
-        DrawText("hold K: increase 'n' , J: decrease 'n'", HEIGHT - 75, 70, 20, WHITE);
-        //display the equation of the rose curve
-        DrawText("Equation: r = a * sin(n * theta)", HEIGHT - 30, 90, 20, WHITE);
+        // draw_rose(0 , 0);
+        // DrawText("hold M: increase 'a' , L: decrease 'a'", HEIGHT - 75, 50, 20, WHITE);
+        // DrawText("hold K: increase 'n' , J: decrease 'n'", HEIGHT - 75, 70, 20, WHITE);
+        // //display the equation of the rose curve
+        // DrawText("Equation: r = a * sin(n * theta)", HEIGHT - 30, 90, 20, WHITE);
 
+        //!parametric
+        draw_parametric(0, 0);
+        
    
     
         EndDrawing(); 

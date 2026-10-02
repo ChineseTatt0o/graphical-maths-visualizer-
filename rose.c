@@ -34,6 +34,6 @@ void draw_rose(float r, float theta)
      Vector2 PP = {x, y};
      Vector2 PP_screen = WorldToScreen(PP);
      DrawLine(0.0f, 0.0f, PP_screen.x , PP_screen.y , ORANGE);
-
+    DrawCircle(PP_screen.x , PP_screen.y , 2, GREEN);
     }
 }

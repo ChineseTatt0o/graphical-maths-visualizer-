@@ -1,5 +1,6 @@
 #include "fibonacci.h"
 #include "raylib.h"
+#include "graph.h"
 #include <stdbool.h>
 
 #define SCALE 10

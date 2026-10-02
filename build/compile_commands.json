@@ -37,6 +37,12 @@
 },
 {
   "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
+  "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -g -std=gnu99 -o CMakeFiles\\MathVisualizer.dir\\parametric.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\parametric.c",
+  "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/parametric.c",
+  "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/CMakeFiles/MathVisualizer.dir/parametric.c.obj"
+},
+{
+  "directory": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build",
   "command": "c:\\raylib\\w64devkit\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src -isystem C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o _deps\\raylib-build\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\Users\\HP\\OneDrive\\Bureau\\Mathvisualizer\\build\\_deps\\raylib-src\\src\\rcore.c",
   "file": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src/rcore.c",
   "output": "C:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
