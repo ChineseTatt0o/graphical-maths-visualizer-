@@ -9,6 +9,7 @@
 #include "polar.h"
 #include "rose.h"
 #include "parametric.h"
+#include "visualization.h"
 
 #define WIDTH 900
 #define HEIGHT 600
@@ -104,7 +105,7 @@ int main(void)
         
 
         //!normal function
-        // draw_function(1.0, 0.0);
+        // draw_function(0.0, 0.0);
 
         //!rose
         // draw_rose(0 , 0);
@@ -114,7 +115,12 @@ int main(void)
         // DrawText("Equation: r = a * sin(n * theta)", HEIGHT - 30, 90, 20, WHITE);
 
         //!parametric
-        draw_parametric(0, 0);
+        // draw_parametric(0, 0);
+
+        //!visualization
+        TestVisualization();
+    
+
         
    
     

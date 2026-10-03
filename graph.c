@@ -1,4 +1,5 @@
-//mathematical coordinate system
+//!mathematical coordinate system
+
 #include "graph.h"
 #include "raylib.h"
 #include <stdio.h>

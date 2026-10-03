@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include "polar.h"
 #include "graph.h"
+#include "visualization.h"
 #include <math.h>
 
 

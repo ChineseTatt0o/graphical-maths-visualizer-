@@ -119,6 +119,16 @@ build CMakeFiles/MathVisualizer.dir/parametric.c.obj: C_COMPILER__MathVisualizer
   OBJECT_FILE_DIR = CMakeFiles\MathVisualizer.dir
   TARGET_SUPPORT_DIR = CMakeFiles\MathVisualizer.dir
 
+build CMakeFiles/MathVisualizer.dir/visualization.c.obj: C_COMPILER__MathVisualizer_unscanned_Debug C$:/Users/HP/OneDrive/Bureau/Mathvisualizer/visualization.c || cmake_object_order_depends_target_MathVisualizer
+  CONFIG = Debug
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\MathVisualizer.dir\visualization.c.obj.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -IC:/Users/HP/OneDrive/Bureau/Mathvisualizer/build/_deps/raylib-src/src
+  OBJECT_DIR = CMakeFiles\MathVisualizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\MathVisualizer.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\MathVisualizer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MathVisualizer
@@ -127,7 +137,7 @@ build CMakeFiles/MathVisualizer.dir/parametric.c.obj: C_COMPILER__MathVisualizer
 #############################################
 # Link the executable MathVisualizer.exe
 
-build MathVisualizer.exe: C_EXECUTABLE_LINKER__MathVisualizer_Debug CMakeFiles/MathVisualizer.dir/main.c.obj CMakeFiles/MathVisualizer.dir/fibonacci.c.obj CMakeFiles/MathVisualizer.dir/graph.c.obj CMakeFiles/MathVisualizer.dir/function.c.obj CMakeFiles/MathVisualizer.dir/polar.c.obj CMakeFiles/MathVisualizer.dir/rose.c.obj CMakeFiles/MathVisualizer.dir/parametric.c.obj | _deps/raylib-build/raylib/libraylib.a || _deps/raylib-build/raylib/external/glfw/src/glfw _deps/raylib-build/raylib/libraylib.a
+build MathVisualizer.exe: C_EXECUTABLE_LINKER__MathVisualizer_Debug CMakeFiles/MathVisualizer.dir/main.c.obj CMakeFiles/MathVisualizer.dir/fibonacci.c.obj CMakeFiles/MathVisualizer.dir/graph.c.obj CMakeFiles/MathVisualizer.dir/function.c.obj CMakeFiles/MathVisualizer.dir/polar.c.obj CMakeFiles/MathVisualizer.dir/rose.c.obj CMakeFiles/MathVisualizer.dir/parametric.c.obj CMakeFiles/MathVisualizer.dir/visualization.c.obj | _deps/raylib-build/raylib/libraylib.a || _deps/raylib-build/raylib/external/glfw/src/glfw _deps/raylib-build/raylib/libraylib.a
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
