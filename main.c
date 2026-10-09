@@ -9,6 +9,7 @@
 #include "polar.h"
 #include "rose.h"
 #include "parametric.h"
+#include "fractals.h"
 #include "visualization.h"
 
 #define WIDTH 900
@@ -86,6 +87,7 @@
 int main(void)
 {
     InitWindow(WIDTH, HEIGHT, "MathVis");
+    InitFractal(900,600);
     
 
     SetTargetFPS(60);
@@ -94,9 +96,16 @@ int main(void)
     {
         Vector2 cameraoffset = {0.0f, 0.0f};
 
+        UpdateFractal();//update function once per frame
+
         BeginDrawing();
 
         ClearBackground(BLACK);
+
+
+        //!fractals
+        DrawFractal();
+
 
         draw_graph(0, 0);
 
@@ -118,7 +127,9 @@ int main(void)
         // draw_parametric(0, 0);
 
         //!visualization
-        TestVisualization();
+        // TestVisualization();
+
+        
     
 
         
@@ -126,9 +137,10 @@ int main(void)
     
         EndDrawing(); 
     }
+    UnloadFractal();
     CloseWindow();
 
     return 0;
 }
 
-//!polar
+

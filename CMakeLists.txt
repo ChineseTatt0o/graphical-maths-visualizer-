@@ -17,6 +17,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(raylib)
 
-add_executable(MathVisualizer main.c fibonacci.c graph.c function.c polar.c rose.c parametric.c visualization.c)
+add_executable(MathVisualizer main.c fibonacci.c graph.c function.c polar.c rose.c parametric.c visualization.c fractals.c)
 
 target_link_libraries(MathVisualizer PRIVATE raylib)

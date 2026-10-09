@@ -46,6 +46,7 @@ void TestVisualization() {
         // For example, you could draw a rectangle with this color
         DrawRectangle(50 + (int)(t * 400), 50, 40, 40, color1);
         
+        
     }
 }
 
