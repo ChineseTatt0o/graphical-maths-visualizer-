@@ -11,6 +11,7 @@
 #include "parametric.h"
 #include "fractals.h"
 #include "visualization.h"
+#include "julia.h"
 
 #define WIDTH 900
 #define HEIGHT 600
@@ -88,6 +89,7 @@ int main(void)
 {
     InitWindow(WIDTH, HEIGHT, "MathVis");
     InitFractal(900,600);
+    InitJulia(900,600);
     
 
     SetTargetFPS(60);
@@ -96,18 +98,23 @@ int main(void)
     {
         Vector2 cameraoffset = {0.0f, 0.0f};
 
-        UpdateFractal();//update function once per frame
+        UpdateJulia();//!julia
+
+        // UpdateFractal();//update function once per frame//!fractals
 
         BeginDrawing();
 
         ClearBackground(BLACK);
 
 
+        //!julia
+        DrawJulia();
+
         //!fractals
-        DrawFractal();
+        // DrawFractal();
 
 
-        draw_graph(0, 0);
+        draw_graph(0, 0); //? for drawing the graph where we visualize everything 
 
         //!polar
         // draw_polar(0, 0);
@@ -137,7 +144,10 @@ int main(void)
     
         EndDrawing(); 
     }
-    UnloadFractal();
+
+    UnloadJulia();//!julia
+    UnloadFractal();//!fractals
+
     CloseWindow();
 
     return 0;
